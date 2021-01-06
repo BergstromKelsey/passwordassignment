@@ -36,13 +36,16 @@ function getRandomLower() {
     
     } 
         
-      else { 
-          return ('')
+    else {
+        return ('')
+    }
+    
+          
          
          
 
       }
-}
+
 
 function getRandomUpper() {
 

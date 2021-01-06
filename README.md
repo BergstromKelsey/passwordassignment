@@ -12,4 +12,8 @@ that the more I work with JavaScript, the better I understand it.
 To use this program, simply load the page, choose which characteristics you
 would like for your password and hit generate!
 
-![Password HTML Image](Develop/photos/passwordgen.png)
+![PasswordImage](/Users/kelseybergstrom/Desktop/Class Activites/03-JavaScript/02-Homework/Develop/photos/passwordgen.png)
+
+https://bergstromkelsey.github.io/passwordassignment/
+
+https://github.com/BergstromKelsey/passwordassignment
