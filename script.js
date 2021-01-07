@@ -12,20 +12,14 @@ function writePassword(event) {
 
 function genPswd() {
     var randStringArr = [getRandomLower(), getRandomUpper(), getRandomNumber(), getRandomSymnbol()];
-
-    //console.log(typeof parseInt(userPswdLen.value))
     var maxpswdLen = parseInt(userPswdLen.value)
-    // var num = (Math.floor(Math.random() * (maxpswdLen - 8) + 8));
-    //console.log(num)
     var pswdstring = ""
     for (var i = 1; i <= maxpswdLen; i++) {
-        var test = Math.floor(Math.random() * randStringArr.length)
+         var test = Math.floor(Math.random() * randStringArr.length)
         pswdstring += randStringArr[test]
-        // console.log(randStringArr[test])
      }
-    // console.log(maxpswdLen)
-    // console.log(pswdstring)
-     passbox.value= pswdstring
+    console.log(maxpswdLen)
+    passbox.value= pswdstring
      
 }
 
@@ -39,10 +33,7 @@ function getRandomLower() {
     else {
         return ('')
     }
-    
-          
-         
-         
+     
 
       }
 
@@ -80,12 +71,20 @@ function getRandomSymnbol() {
     if (document.getElementById("includeSymbols").checked == true) {
         return symbols[Math.floor(Math.random() * symbols.length)];
     } 
-     else {
-        return ('')
+    // else (document.getElementById("includeSymbols").checked == false) 
+    else {
+        return ('') 
+    }
+    }
+        
         
 
-     }
-}
+     
+    
+
+
+
+
 
 
 
